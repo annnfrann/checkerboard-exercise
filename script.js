@@ -1,7 +1,5 @@
 for (var i = 0; i < 81; i++) {
-  var newColor = Math.random()* 1000000;
-  newColor = newColor.toFixed(0);
-  console.log(newColor);
+  var newColor = Math.floor((Math.random() * 899999) + 99999)
     var newDiv = document.createElement("div");
     newDiv.style.backgroundColor = "#" + newColor;
     newDiv.style.width = "11.1%";
