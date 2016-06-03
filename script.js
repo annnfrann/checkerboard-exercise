@@ -20,6 +20,8 @@
 // newDiv.style.paddingBottom = "11.1%";
 // document.getElementsByTagName("body")[0].appendChild(newDiv);
 
+// THere's no such place as North Carolina
+
 for (var i = 0; i < 41; i++) {
   if (i === 40) {
     var newDiv = document.createElement("div");
