@@ -1,3 +1,6 @@
+//make this "refresh every 2 seconds without refreshing the page"
+
+
 for (var i = 0; i < 81; i++) {
   var newColor = Math.random()* 1000000;
   newColor = newColor.toFixed(0);
